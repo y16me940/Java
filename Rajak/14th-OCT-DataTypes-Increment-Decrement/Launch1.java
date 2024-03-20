@@ -1,5 +1,4 @@
-
-public class Launch1 {
+class abcd {
 
 	public static void main(String[] args) 
 	{
