@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-03T07:36:33 IST" name="Default suite" finished-at="2024-05-03T07:36:40 IST" duration-ms="7382">
+    <groups>
+    </groups>
+    <test started-at="2024-05-03T07:36:33 IST" name="Default test" finished-at="2024-05-03T07:36:40 IST" duration-ms="7382">
+      <class name="com.pw.greenkart.Tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pw.greenkart.Tests.HomePageTest@70e9c95d]" started-at="2024-05-03T07:36:33 IST" name="setup" finished-at="2024-05-03T07:36:38 IST" duration-ms="5405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatePageTitleUrl()[pri:1, instance:com.pw.greenkart.Tests.HomePageTest@70e9c95d]" started-at="2024-05-03T07:36:38 IST" name="validatePageTitleUrl" finished-at="2024-05-03T07:36:38 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitleUrl -->
+        <test-method signature="searchItem(java.lang.String)[pri:2, instance:com.pw.greenkart.Tests.HomePageTest@70e9c95d]" started-at="2024-05-03T07:36:38 IST" name="searchItem" data-provider="getProductNames" finished-at="2024-05-03T07:36:39 IST" duration-ms="717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method signature="searchItem(java.lang.String)[pri:2, instance:com.pw.greenkart.Tests.HomePageTest@70e9c95d]" started-at="2024-05-03T07:36:39 IST" name="searchItem" data-provider="getProductNames" finished-at="2024-05-03T07:36:39 IST" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method signature="searchItem(java.lang.String)[pri:2, instance:com.pw.greenkart.Tests.HomePageTest@70e9c95d]" started-at="2024-05-03T07:36:39 IST" name="searchItem" data-provider="getProductNames" finished-at="2024-05-03T07:36:40 IST" duration-ms="368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pw.greenkart.Tests.HomePageTest@70e9c95d]" started-at="2024-05-03T07:36:40 IST" name="tearDown" finished-at="2024-05-03T07:36:40 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pw.greenkart.Tests.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
